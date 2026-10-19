@@ -1,0 +1,12 @@
+{
+  "name": "snap",
+  "version": "1.7.2",
+  "private": true,
+  "description": "Snap: vanish from Google Meet with a finger snap, using on-device camera effects.",
+  "scripts": {
+    "test": "node validation/test-extension.cjs && node validation/test-background.cjs && node validation/test-gesture.cjs && node validation/test-dust.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
